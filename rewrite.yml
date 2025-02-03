@@ -1,0 +1,9 @@
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: com.yourorg.AddBuildPluginExample1
+displayName: Add Gradle plugin example
+recipeList:
+  - org.openrewrite.gradle.plugins.AddBuildPlugin:
+      pluginId: net.razvan.jacoco-to-cobertura
+      version: 1.3.2
+      versionPattern: '-jre'
